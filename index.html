@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <img src="images.png" alt="Netflix Logo" class="logo">
+        <div class="nav-buttons">
+            <div class="dropdown">
+                <button class="dropbtn">Language</button>
+                <div class="dropdown-content">
+                    <a href="#">English</a>
+                    <a href="#">Hindi</a>
+                </div>
+            </div>
+            <button class="btn">Sign in</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title"><strong>Unlimited movies, TV <br> shows and more</strong></h1>
+            <p class="hero-subtitle">Starts at ₹149. Cancel at any time.</p>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="email-container">
+                <input type="email" placeholder="Enter your email" class="email-input">
+                <button class="btn-large">Get Started &gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="trending">
+        <h2>Trending Now</h2>
+        <div class="movies-container">
+            <button class="slide-btn left" onclick="slideLeft()">&#10094;</button>
+            <div class="movies">
+                <div class="movie" style="background-image: url('pushpa2.jpeg');">
+                    <span class="rank">1</span>
+                </div>
+                <div class="movie" style="background-image: url('dhoomdham.jpeg');">
+                    <span class="rank">2</span>
+                </div>
+                <div class="movie" style="background-image: url('squidgame.jpg');">
+                    <span class="rank">3</span>
+                </div>
+                <div class="movie" style="background-image: url('luckybaskhar.jpg');">
+                    <span class="rank">4</span>
+                </div>
+                <div class="movie" style="background-image: url('venom.jpg');">
+                    <span class="rank">5</span>
+                </div>
+                <div class="movie" style="background-image: url('bhoolbhulaiya.jpg');">
+                    <span class="rank">6</span>
+                </div>
+                <div class="movie" style="background-image: url('mismatched.jpeg');">
+                    <span class="rank">7</span>
+                </div>
+                <div class="movie" style="background-image: url('amaran.jpeg');">
+                    <span class="rank">8</span>
+                </div>
+                <div class="movie" style="background-image: url('south.jpeg');">
+                    <span class="rank">9</span>
+                </div>
+                <div class="movie" style="background-image: url('devara.avif');">
+                    <span class="rank">10</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="info-box">
+            <p>Enjoy on your TV</p>
+            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            <i class="icon">📺</i>
+        </div>
+        <div class="info-box">
+            <p>Download your shows to watch offline</p>
+            <p>Save your favourites easily and always have something to watch.</p>
+            <i class="icon">📥</i>
+        </div>
+        <div class="info-box">
+            <p>Watch everywhere</p>
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+            <i class="icon">📱</i>
+        </div>
+        <div class="info-box">
+            <p>Create profiles for kids</p>
+            <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+            <i class="icon">👶</i>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Netflix Clone. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
