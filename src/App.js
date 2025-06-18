@@ -32,7 +32,7 @@ function App() {
     }
     
     try {
-      const response = await fetch("http://localhost:5000/save-email", {
+      const response = await fetch("https://netflix-clone-ia7t.onrender.com/save-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
