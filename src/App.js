@@ -32,7 +32,7 @@ function App() {
     }
     
     try {
-      const response = await fetch("https://netflix-clone-ia7t.onrender.com/save-email", {
+      const response = await fetch("${process.env.REACT_APP_API_BASE}/save-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
